@@ -1,0 +1,18 @@
+{
+    "domain": "bluetti",
+    "name": "Bluetti",
+    "version": "0.9.0",
+    "config_flow": true,
+    "requirements": [],
+    "dependencies": ["bluetooth"],
+    "bluetooth": [
+        { "local_name": "AC200M*" },
+        { "local_name": "AC300*" },
+        { "local_name": "EB3A*" },
+        { "local_name": "EP500*" }
+    ],
+    "codeowners": ["@warhammerkid"],
+    "loggers": ["bluetti"],
+    "iot_class": "local_polling"
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "config": {
+      "flow_title": "FLOW TITLE HERE {name}",
+      "step": {
+        "user": {
+          "data": {
+            "address": "tr Bluetooth address"
+          }
+        }
+      },
+      "abort": {
+        "no_unconfigured_devices": "No unconfigured devices found."
+      }
+    }
+  }
+  
